@@ -682,7 +682,7 @@ def start_feedback():
     print(filtered_tokens)
     import google.generativeai as palm
 
-    Generative_Language_API_KEY = "AIzaSyAP-euuedB7wErHT-ixdZlQKevGYVqOt9s"
+    Generative_Language_API_KEY = ""
     palm.configure(api_key=Generative_Language_API_KEY)
     # model_list = [_ for _ in palm.list_models()]
     # for model in model_list:
