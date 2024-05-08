@@ -26,7 +26,7 @@ def create_service(client_secret_file, api_name, api_version, *scopes, prefix=''
         creds = Credentials.from_authorized_user_file(os.path.join(working_dir, token_dir, token_file), SCOPES)
         # with open(os.path.join(working_dir, token_dir, token_file), 'rb') as token:
         #   cred = pickle.load(token)
-    #creds.refresh_token='1//04_wN1CjV68GxCgYIARAAGAQSNwF-L9IrSJ3C68dgRoeOGVGlCpG92ObOew6KWn4m1SnAMTjSFVFtDkNW8gP5FvNItrDCleRYesA'
+
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
