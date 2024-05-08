@@ -274,10 +274,6 @@ def apply_for_job():
 
 #CREATING GOOGLE DRIVE LINK
 # Google Drive API credentials
-CLIENT_ID = '445086774159-s8ni99npsq4nabe8psd1mm3rkneh8hpj.apps.googleusercontent.com'
-CLIENT_SECRET = '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'
-REDIRECT_URI = 'https://developers.google.com/oauthplayground'
-REFRESH_TOKEN = '1//04tOtUsELGi8SCgYIARAAGAQSNwF-L9Ir79UzwHqQ-kF53MMRVCBiZ0lTEJxHgSJcuJaLE2CEh2dnIbmKp9fseyz-3yWJNIbG5s4'
 
 def create_drive_service():
     credentials = Credentials.from_authorized_user_info({
