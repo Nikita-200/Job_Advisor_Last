@@ -1,0 +1,9 @@
+/* .template-container{
+    display: flex;
+    justify-content: center;
+} */
+.template-container button {
+    margin-left: 140px;
+    width: 400px;
+    height: 400px;
+}

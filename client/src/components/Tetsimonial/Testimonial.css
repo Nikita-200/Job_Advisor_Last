@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+/* color scheme */
+:root {
+  --color1: #308fc3;
+  --color2: #35b8e4;
+  --color3: #afce44;
+}
+
+/* media queries */
+@media only screen and (min-width: 650px) {
+  /* Your M size styles here */
+}
+
+@media only screen and (min-width: 1000px) {
+  /* Your L size styles here */
+}
+
+
+.testimonials {
+  margin: 4em auto;
+  width: 1100px;
+  max-width: 90%;
+  overflow: hidden;
+
+  .block {
+    display: block;
+    margin: 0;
+
+    @media only screen and (min-width: 650px) {
+      float: left;
+      width: 50%;
+      height: 300px;
+    }
+
+    @media only screen and (min-width: 1000px) {
+      width: 33.3333%;
+      height: 280px;
+    }
+
+    &:nth-child(n+2) {
+      padding: 1.5em;
+    }
+
+    &:nth-child(2),
+    &:nth-child(4) {
+      background-color: var(--color1);
+    }
+
+    &:nth-child(3),
+    &:nth-child(5) {
+      background-color: var(--color2);
+    }
+
+    &:nth-child(6) {
+      background-color: var(--color3);
+    }
+
+    p {
+      margin: 0;
+      font-size: 16px;
+      line-height: 28px;
+      font-weight: 300;
+      color: #fff;
+    }
+
+    cite span {
+      display: block;
+      margin-top: 2em;
+      font-size: 14px;
+      font-weight: 600;
+      font-style: normal;
+      color: #fff;
+    }
+  }
+
+  h2 {
+    margin: 0 0 0.5em;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  h5 {
+    margin-top: 0;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 300;
+    color: var(--color1);
+  }
+}

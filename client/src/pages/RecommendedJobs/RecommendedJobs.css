@@ -1,0 +1,254 @@
+/* Variables */
+/*:root {
+    --PrimaryColor: #373c73;
+    --BlackColor: #141416;
+    --WhiteColor: #fff;
+    --GrayColor: #777E90;
+    --BorderColor: #E6E8EC;
+    --PrimaryFont: 'Poppins', sans-serif;
+    --SecondaryFont: 'DM Sans', sans-serif;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 16px;
+  }
+  
+  body {
+    font-family: var(--PrimaryFont);
+  }
+  */
+  /* Utility Classes */
+/*
+  .jobs-container {
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 30px 60px;
+  }
+  
+  .section__title {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-family: var(--SecondaryFont);
+    color: #fff;
+  }
+  
+  .catalog__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 200px;
+  }
+  */
+  /* Card */
+  /*
+  .card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    overflow: hidden;
+    background: var(--WhiteColor);
+    border: 1px solid var(--BorderColor);
+    color: var(--BlackColor);
+    transition: border-color .2s;
+    width: calc(33.333% - 32px);
+    margin: 32px 16px 0;
+  }
+  
+  .card:hover {
+    border-color: darken(var(--BorderColor), 5%);
+    cursor: pointer;
+  }
+  
+  .card:hover .card__preview__image {
+    transform: scale(1.1);
+  }
+  
+  .card__preview {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card__preview:before {
+    content: "";
+    display: block;
+    padding-bottom: 50.6%;
+  }
+  
+  .card__preview__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 1s;
+  }
+  
+  .card__tag {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    z-index: 2;
+    display: inline-block;
+    padding: 11px 8px 9px;
+    background: var(--WhiteColor);
+    border-radius: 4px;
+    font-size: 0.625rem;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--BlackColor);
+  }
+  
+  .card__whishlist {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+  }
+  
+  .card__mail {
+    position: absolute;
+    top: 16px;
+    right: 70px;
+  }
+  
+  .card__action__icon {
+    background: var(--WhiteColor);
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card__body {
+    padding: 22px 24px;
+  }
+  
+  .card__line {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card__title {
+    margin: 0 0 0 10px;
+    font-weight: normal;
+  }
+  
+  .card__subtitle {
+    margin: 20px 0 10px 0;
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  
+  .card__options {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card__option {
+    display: flex;
+    font-size: 0.75rem;
+    line-height: 1.66667;
+    color: var(--GrayColor);
+    padding-right: 15px;
+  }
+  
+  .card__option__icon_label {
+    padding-left: 8px;
+  }
+  
+  .card__footer {
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px solid var(--BorderColor);
+  }
+  
+  .card__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card__cost {
+    font-size: 0.875rem;
+    font-weight: 500;
+    display: flex;
+  }
+  
+  .card__cost__icon {
+    margin-left: 5px;
+  }
+  
+  .card__button {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    background: var(--PrimaryColor);
+    padding: 9px 30px;
+    color: var(--WhiteColor);
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .card__button:hover {
+    background: lighten(var(--PrimaryColor), 10%);
+  }
+  */
+  /* Media Query */
+  /*
+  @media only screen and (max-width: 1280px) {
+    .container {
+      padding: 0;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .card {
+      width: calc(50% - 32px);
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .card {
+      width: calc(100% - 32px);
+    }
+  }
+  */
+  .job-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.job-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.job-card h3 {
+    margin-top: 0;
+}
+
+.job-card p {
+    margin: 10px 0;
+}
+
+/* Optional: Add more styling as needed */

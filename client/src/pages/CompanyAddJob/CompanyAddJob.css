@@ -1,0 +1,187 @@
+/*
+.job-container {
+    background: #124076;
+    opacity: 0.9;
+    width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 60px 50px;
+    border-radius: 0.8%;
+    color: #fff;
+    margin-left: 530px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+ .inputbox {
+    display: block;
+    margin-top: 10px;
+    width: 97%;
+    height: 20px;
+    border: transparent;
+    border-radius: 3px;
+  }
+
+  select {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    border: transparent;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-family: Muli, sans-serif;
+    padding: 10px;
+  }
+
+
+  .name, .email, .age, .job, .location, .features, .place, .comments {
+    margin-bottom: 30px;
+  }
+
+  .age span, .features span {
+    font-size: 1rem;  
+  }
+
+  .radio, .checkboxes {
+    display: block;
+  }
+
+  input {
+    font-size: 1rem;
+    font-family: Muli, sans-serif;
+    padding: 20px;
+  }
+
+  .comment-box {
+    margin: 0 auto;
+  }
+
+  textarea {
+    display: block;
+    margin: 0 auto;
+    font-size: 1rem;
+    font-family: Muli, sans-serif;
+    padding: 10px;
+    width: 96%;
+    height: 120px
+  }
+
+
+  #comments {
+    border-radius: 3px;
+    margin-top: 10px;
+  }
+
+  .formbtn {
+    background-color: #1ca641;
+    color: white;
+    font-family: Muli, sans-serif;
+    font-size: 1.1rem;
+    height: 45px;
+    width: 100%;
+    border: transparent;
+    border-radius: 3px;
+    margin-left: 0px;
+  }
+
+  input[type="radio"], input[type="checkbox"] {
+    transform: scale(1.5);
+    margin: 20px 5px 0 5px;
+  }
+*/
+
+
+
+
+  .job-container {
+    background: #124076;
+    opacity: 0.9;
+    width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 60px 50px;
+    border-radius: 0.8%;
+    color: #fff;
+    margin-left: 530px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+ .inputbox {
+    display: block;
+    margin-top: 10px;
+    width: 97%;
+    height: 20px;
+    border: transparent;
+    border-radius: 3px;
+    padding: 20px;
+  }
+
+  select {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    border: transparent;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-family: Muli, sans-serif;
+    padding: 10px;
+  }
+
+
+  .name, .email, .age, .job, .location, .features, .place, .comments {
+    margin-bottom: 30px;
+  }
+
+  .age span, .features span {
+    font-size: 1rem;
+  }
+
+  .radio, .checkboxes {
+    display: block;
+  }
+
+  input {
+    font-size: 1rem;
+    font-family: Muli, sans-serif;
+    padding: 20px;
+  }
+
+  .comment-box {
+    margin: 0 auto;
+  }
+
+  textarea {
+    display: block;
+    margin: 0 auto;
+    font-size: 1rem;
+    font-family: Muli, sans-serif;
+    padding: 10px;
+    width: 96%;
+    height: 120px
+  }
+
+
+  #comments {
+    border-radius: 3px;
+    margin-top: 10px;
+  }
+
+  .formbtn {
+    background-color: #1ca641;
+    color: white;
+    font-family: Muli, sans-serif;
+    font-size: 1.1rem;
+    height: 45px;
+    width: 100%;
+    border: transparent;
+    border-radius: 3px;
+    margin-left: 0px;
+  }
+
+  input[type="radio"], input[type="checkbox"] {
+    transform: scale(1.5);
+    margin: 20px 5px 0 5px;
+  }
